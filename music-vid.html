@@ -14,31 +14,20 @@
  </head>
  <body>
      <header class='container-fluid'>
-        <nav id='nav' class='row'>
-            <a href="index.html">
-                <div class='col-md-2 col-sm-3 col-xs-4 logo '>
-                    <img src='assets/images/monkees-logo.png' class=''>
-                </div>
-            </a>
-            <div class='col-md-10 col-sm-10 col-xs-10 pull-right'>
-                <ul class="list-inline clearfix">
-                    <li class="col-md-1 col-sm-1 col-xs-2 col-md-offset-5 col-sm-offset-3 col-xs-offset-2 navItem">
-                        <a href='index.html' class='vr-radial-out'>HOME</a>
-                    </li>
-                    <li class="col-md-1 col-sm-1 col-xs-2 menu-color-home navItem">
-                        <a href='index.html#about' class='vr-radial-out'>ABOUT</a>
-                    </li>
-                    <li class="col-md-1 col-sm-1 col-xs-2 menu-color-contact navItem">
-                        <a href='index.html#concerts' class='vr-radial-out'>CONCERTS</a>
-                    </li>
-                    <li class="col-md-1 col-sm-1 col-xs-2 menu-color-resume navItem">
-                        <a href='music-vid.html' class='vr-radial-out'>MUSIC</a>
-                     </li>
-                    <li class="col-md-1 col-sm-1 col-xs-2 col- menu-color-download navItem">
-                        <a href='index.html#contact' class='vr-radial-out'>CONTACT</a>
-                    </li>
-                </ul>
-            </div>
+        <a href="index.html">
+            <img src='assets/images/monkees-logo.png' class='logo col-md-2 col-sm-3 col-xs-4'>
+        </a>
+        <nav role="navigation">
+            <div id="menuToggle" class='col-md-10 col-sm-10 col-xs-10 pull-right'>
+            <input type="checkbox" > <span></span><span></span><span></span></input>
+            <ul id="menu">
+              <a href=" index.html#contact " class="navItem col-md-1 "><li>CONTACT</li></a>
+              <a href=" index.html#concerts " class="navItem col-md-1 "><li>CONCERTS</li></a>
+              <a href=" music-vid.html " class="navItem col-md-1 "><li>MUSIC</li></a>
+              <a href=" index.html#about "  class="navItem col-md-1 " ><li>ABOUT</li></a>
+              <a href=" index.html " class="navItem col-md-1 col-sm-1 " ><li>HOME</li></a>
+            </ul>
+          </div>
         </nav>
     </header>
     <section class="mv-content">
