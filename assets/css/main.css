@@ -101,7 +101,7 @@ ul li {
 .jumbo{
 	margin: 0;
     padding: 0;
-    min-height: 665px;
+    min-height: 555px;
 }
 
 .jumbo img{
@@ -267,19 +267,24 @@ ul li {
     background-color: #171825;
 }
 
+
+
 .biography-about{
-	margin-left: 15vw;
-	margin-right: 15vw;
+	position: relative;
+	left: 20px;
+	margin-left: 9vw;
+	padding-right: 9vw;
 	margin-top: 55px;
 	margin-bottom: 40px;
 	filter: drop-shadow(8px 8px 13px white) contrast(200%)  saturate(2);
 	color:  white;
-	height: auto;
+	height: 520px;
 	font-weight: normal;
 	text-shadow:  0.6px 0.6px 0px  #040404;
-
-
+    overflow-y: auto;
+    
 }
+
 
 .heading{
 	font-family: 'garamond' , 'sans-serif' ;
@@ -791,7 +796,7 @@ label{
   	margin: -80px 0 0 -70px;
   	padding: 50px;
   	padding-top: 130px;
-  	background-color: rgb(0, 2.7, 8.60,0.7);
+  	background-color: rgba(0, 2.7, 8.60,0.7);
   	list-style-type: none;
   	-webkit-font-smoothing: antialiased;
   	transform-origin: 0% 0%;
@@ -822,7 +827,7 @@ label{
 
 
 .jumbo{
-	height:  30vh;	
+	height:  550px;	
 	
 }
 
@@ -859,7 +864,7 @@ form,
 	margin-left: 0;
 	margin-top: 12%;
 	height: 500px;
-	background-color: yellow;
+	background-color: black;
 }
 
 
@@ -872,7 +877,7 @@ form,
 	margin-bottom: 55%;
 	margin-left: 0;
 	height: 350px;
-	background-color: red;
+	background-color: black;
 }
 
 
@@ -1000,9 +1005,7 @@ form,
 
 
 @media (min-width : 775px) and (max-width : 1023px){
-	
 
-	
 .footer-details{
 	width: 100%;
 	margin: 0 auto;
@@ -1050,7 +1053,7 @@ form,
 	margin-left: 0;
 	margin-top: 12%;
 	height: 500px;
-	background-color: yellow;
+	background-color: black;
 }
 
 
@@ -1061,7 +1064,7 @@ form,
 	margin-bottom: 55%;
 	margin-left: 0;
 	height: 350px;
-	background-color: red;
+	background-color: black;
 }
 
 
