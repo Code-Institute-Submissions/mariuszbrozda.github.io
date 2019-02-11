@@ -270,13 +270,12 @@ ul li {
 
 
 .biography-about{
-	position: relative;
-	left: 20px;
-	margin-left: 9vw;
-	padding-right: 9vw;
+	margin-left: 11vw;
+	margin-right: 4vw;
 	margin-top: 55px;
+	padding: 30px;
 	margin-bottom: 40px;
-	filter: drop-shadow(8px 8px 13px white) contrast(200%)  saturate(2);
+	filter: drop-shadow(3px 1px 3px black) contrast(200%)  saturate(2);
 	color:  white;
 	height: 520px;
 	font-weight: normal;
@@ -338,12 +337,6 @@ ul li {
 	
 }
 
-.fa-hand-o-left{
-	font-size: 45px;
-	color: red;
-	background-color: white; 
-	padding: 0;
-}
 
 .book-event-moving{
 	margin:  0 auto;
