@@ -13,37 +13,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
  </head>
  <body>
-     <header class='container-fluid'>
+    <header class='container-fluid'>
         <a href="index.html">
             <img src='assets/images/monkees-logo.png' class='logo col-md-2 col-sm-3 col-xs-4'>
         </a>
-        <nav role="navigation">
+        <nav >
             <div id="menuToggle" class='col-md-10 col-sm-10 col-xs-10 pull-right'>
-            <input type="checkbox" > <span></span><span></span><span></span></input>
-            <ul id="menu">
-              <a href=" index.html#contact " class="navItem col-md-1 "><li>CONTACT</li></a>
-              <a href=" index.html#concerts " class="navItem col-md-1 "><li>CONCERTS</li></a>
-              <a href=" music-vid.html " class="navItem col-md-1 "><li>MUSIC</li></a>
-              <a href=" index.html#about "  class="navItem col-md-1 " ><li>ABOUT</li></a>
-              <a href=" index.html " class="navItem col-md-1 col-sm-1 " ><li>HOME</li></a>
-            </ul>
-          </div>
+                <input type="checkbox" > <span></span><span></span><span></span></input>
+                <ul id="menu">
+                  <a href=" index.html#contact " class="navItem col-md-1 "><li>CONTACT</li></a>
+                  <a href=" index.html#concerts " class="navItem col-md-1 "><li>CONCERTS</li></a>
+                  <a href=" music-vid.html " class="navItem col-md-1 "><li>MUSIC</li></a>
+                  <a href=" index.html#about "  class="navItem col-md-1 " ><li>ABOUT</li></a>
+                  <a href=" index.html " class="navItem col-md-1 col-sm-1 " ><li>HOME</li></a>
+                </ul>
+            </div>
         </nav>
     </header>
     <section class="mv-content">
         <div class="container-fluid">
             <div class='row'>
                 <div class='video  embed-responsive embed-responsive-item col-md-6 col-sm-12 col-xs-12'>
-                    <iframe controls  class="embed-responsive-item"  src="assets/images/TheMonkees.mp4" >  
-                    </iframe>   
+                    <video controls class="embed-responsive-item"  src="assets/images/TheMonkees.mp4" >  
+                    </video>   
                 </div>
                 <div class='chat col-md-3 col-sm-12 col-xs-12'>
                     <div class="row">
                         <div class="col-md-8 col-sm-8 col-xs-8 chat-content">
                             <h3>CHAT</h3>
+                            <p> Dorothy87 - Hello :-)</p>
+                            <p> Martin - Hi All !</p>
+                            <p> Lilly_1 - Let's check new clips! </p>
                         </div>
                         <div class="chat-users col-md-4 col-sm-4 col-xs-4">
                             <h3>USERS</h3>
+                            <p> Martin</p>
+                            <p> Dorothy87</p>
+                            <p> Lilly_1</p>
                         </div>
                     </div>
                     <div class="row">
@@ -58,7 +64,7 @@
         </div>
         <div class="container-fluid">
             <div class='row'>
-                <div class='video-list col-md-offset-1 col-md-3   col-sm-12 col-xs-12'>
+                <div class='video-list col-md-offset-1 col-md-6 col-sm-12 col-xs-12'>
                     <div class="container-fluid">
                         <div class="row">
                             <div class='heading-music-list col-sm-12 col-md-12 col-md-12'>
@@ -72,27 +78,27 @@
                                 <div class='row'>
                                     <ol type="1" class="ol-music">
                                         <li  class="clip">
-                                            <h4> Clip title</h4>
+                                            <h4> The Monkees</h4>
                                             <video controls class="embed-responsive-item"  src="assets/images/TheMonkees.mp4" >  
                                             </video>
                                          </li>
                                          <li  class="clip">
-                                            <h4> Clip title</h4>
+                                            <h4> The Monkees</h4>
                                             <video controls class="embed-responsive-item"  src="assets/images/TheMonkees.mp4" >  
                                             </video>
                                          </li>
                                          <li  class="clip">
-                                            <h4> Clip title</h4>
+                                            <h4> The Monkees</h4>
                                             <video controls class="embed-responsive-item"  src="assets/images/TheMonkees.mp4" >  
                                             </video>
                                          </li>
                                          <li  class="clip">
-                                            <h4> Clip title</h4>
+                                            <h4> The Monkees</h4>
                                             <video controls class="embed-responsive-item"  src="assets/images/TheMonkees.mp4" >  
                                             </video>
                                          </li>
                                          <li  class="clip">
-                                            <h4> Clip title</h4>
+                                            <h4> The Monkees</h4>
                                             <video controls class="embed-responsive-item"  src="assets/images/TheMonkees.mp4" >  
                                             </video>
                                          </li>
@@ -102,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class='music-list col-md-offset-1 col-md-3   col-sm-12 col-xs-12'>
+                <div class='music-list col-md-offset-1 col-md-3 col-sm-12 col-xs-12'>
                     <div class="container-fluid">
                         <div class="row">
                             <div class='heading-music-list col-sm-12 col-md-12 col-md-12'>
@@ -122,9 +128,23 @@
                                         </audio>
                                      </li>
                                      <li  class="track">
-                                        <h4> Clarksville</h4>
+                                        <h4> Day Dream Believer</h4>
                                         <audio controls class="">
-                                            <source src="assets/images/Clarksville.mp3" type="audio/mp3">
+                                            <source src="assets/images/DaydreamBeliever.mp3" type="audio/mp3">
+                                            <track src="subtitles_en.vtt" kind="captions" srclang="en" label="English">
+                                        </audio>
+                                     </li>
+                                     <li  class="track">
+                                        <h4> Im A Believer</h4>
+                                        <audio controls class="">
+                                            <source src="assets/images/ImABeliever.mp3" type="audio/mp3">
+                                            <track src="subtitles_en.vtt" kind="captions" srclang="en" label="English">
+                                        </audio>
+                                     </li>
+                                     <li  class="track">
+                                        <h4> Stepping Stone</h4>
+                                        <audio controls class="">
+                                            <source src="assets/images/SteppingStone.mp3" type="audio/mp3">
                                             <track src="subtitles_en.vtt" kind="captions" srclang="en" label="English">
                                         </audio>
                                      </li>
@@ -136,37 +156,23 @@
                                         </audio>
                                      </li>
                                      <li  class="track">
-                                        <h4> Clarksville</h4>
+                                        <h4> Day Dreamer Believer</h4>
                                         <audio controls class="">
-                                            <source src="assets/images/Clarksville.mp3" type="audio/mp3">
+                                            <source src="assets/images/DaydreamBeliever.mp3" type="audio/mp3">
                                             <track src="subtitles_en.vtt" kind="captions" srclang="en" label="English">
                                         </audio>
                                      </li>
                                      <li  class="track">
-                                        <h4> Clarksville</h4>
+                                        <h4> Stepping Stone</h4>
                                         <audio controls class="">
-                                            <source src="assets/images/Clarksville.mp3" type="audio/mp3">
+                                            <source src="assets/images/SteppingStone.mp3" type="audio/mp3">
                                             <track src="subtitles_en.vtt" kind="captions" srclang="en" label="English">
                                         </audio>
                                      </li>
                                      <li  class="track">
-                                        <h4> Clarksville</h4>
+                                        <h4> I'm a Believer</h4>
                                         <audio controls class="">
-                                            <source src="assets/images/Clarksville.mp3" type="audio/mp3">
-                                            <track src="subtitles_en.vtt" kind="captions" srclang="en" label="English">
-                                        </audio>
-                                     </li>
-                                     <li  class="track">
-                                        <h4> Clarksville</h4>
-                                        <audio controls class="">
-                                            <source src="assets/images/Clarksville.mp3" type="audio/mp3">
-                                            <track src="subtitles_en.vtt" kind="captions" srclang="en" label="English">
-                                        </audio>
-                                     </li>
-                                     <li  class="track">
-                                        <h4> Clarksville</h4>
-                                        <audio controls class="">
-                                            <source src="assets/images/Clarksville.mp3" type="audio/mp3">
+                                            <source src="assets/images/ImABeliever.mp3" type="audio/mp3">
                                             <track src="subtitles_en.vtt" kind="captions" srclang="en" label="English">
                                         </audio>
                                      </li>
@@ -179,8 +185,8 @@
         </div>
     </section>
     <div class='heading'>
-                <h1>ALBUMS</h1>
-                </div>
+        <h1>ALBUMS</h1>
+    </div>
     <section class="album col-md-12">
         <div class="row">
             <div class="alb-pic">
@@ -194,116 +200,113 @@
                     <h2>Changes</h2>
                 </div>
                 <img src="assets/images/Changes.jpg" >
-                </div>
+            </div>
             <div class=alb-pic>
                 <div class="layer">
                     <h2>Good Times !</h2>
                 </div>
                 <img src="assets/images/Good_Times!.jpg">
-                </div>
+            </div>
             <div class="alb-pic">
                 <div class="layer">
                     <h2> Head</h2>
                 </div>
-                    <img src="assets/images/Head.jpg">
-                </div>
+                <img src="assets/images/Head.jpg">
+            </div>
             <div class="alb-pic">
                 <div class="layer">
                     <h2> Headquarters</h2>
                 </div>
                 <img src="assets/images/Headquarters.jpg">
-                </div>  
+            </div>  
             <div class="alb-pic">
                 <div class="layer">
                     <h2>Infinite rider in the big coma</h2>
                 </div>
                 <img src="assets/images/infinite-rider-on-the-big-coma.jpg">
-                </div>
+            </div>
             <div class="alb-pic">
                 <div class="layer">
                     <h2>Instant Replay</h2>
                 </div>
                 <img src="assets/images/Instant_Replay.jpg">
-                </div>  
+            </div>  
             <div class="alb-pic">
                 <div class="layer">
                     <h2>Justus</h2>
                 </div>
-            <img src="assets/images/Justus.jpg">
-                </div>  
+                <img src="assets/images/Justus.jpg">
+            </div>  
             <div class="alb-pic">
                 <div class="layer">
                     <h2>Live in Las Vegas</h2>
                 </div>
-                    <img src="assets/images/live-in-las-vegas.jpg">
-                </div>  
+                <img src="assets/images/live-in-las-vegas.jpg">
+            </div>  
             <div class="alb-pic">
                 <div class="layer">
                     <h2>The Monkees Live Almanac</h2>
                 </div>
-            <img src="assets/images/monkees-live-almanac.jpg">
-                </div>
-                <div class="alb-pic">
+                <img src="assets/images/monkees-live-almanac.jpg">
+            </div>
+            <div class="alb-pic">
                 <div class="layer">
                     <h2>Pisces, Aquarius, Capricorn & Jones Ltd.</h2>
                 </div>
-                    <img src="assets/images/pisces-aquarius.jpg">
-                </div>  
-                <div class="alb-pic">
+                <img src="assets/images/pisces-aquarius.jpg">
+            </div>  
+            <div class="alb-pic">
                 <div class="layer">
                     <h2>The Birds, the Bees & the Monkees</h2>
                 </div>
-                    <img src="assets/images/The_Birds,_the_Bees_&_the_Monkees.jpg">
-                </div>  
-                <div class="alb-pic">
+                <img src="assets/images/The_Birds,_the_Bees_&_the_Monkees.jpg">
+            </div>  
+            <div class="alb-pic">
                 <div class="layer">
                     <h2>More Greatest Hits of The Monkees</h2>
                 </div>
-                   <img src="assets/images/album.jpg">
-                </div>  
-                <div class="alb-pic">
+                <img src="assets/images/album.jpg">
+            </div>  
+            <div class="alb-pic">
                 <div class="layer">
                     <h2>The Monkees Present</h2>
                 </div>
-                    <img src="assets/images/TheMonkeesPresent.jpg">
-                </div>  
-                <div class="alb-pic">
+                <img src="assets/images/TheMonkeesPresent.jpg">
+            </div>  
+            <div class="alb-pic">
                 <div class="layer">
                     <h2>The Greatest Hits !</h2>
                 </div>
-                    <img src="assets/images/greatest-hits.jpg">
-                </div>    
+                <img src="assets/images/greatest-hits.jpg">
+            </div>    
         </div>  
     </section>
-    
-    <footer class=' footer'>
-         
-             <div class='social-media'>
-                     <ul class=''>
-                         <li>
-                             <a href="https://www.facebook.com/" target='_blank' class='hvr-float-shadow facebook'><i class='fa fa-facebook'></i></a>
-                         </li>
-                         <li>
-                             <a href="https://www.linked.com/" target='_blank' class='hvr-float-shadow linkedin'><i class='fa fa-linkedin'></i></a>
-                         </li>
-                         <li>
-                             <a href="https://www.googleplus.com/" target='_blank' class='hvr-float-shadow google-plus'><i class='fa fa-google-plus'></i></a>
-                         </li>
-                         <li>
-                             <a href="https://www.youtube.com/" target='_blank' class='hvr-float-shadow youtube'><i class='fa fa-youtube'></i></a>
-                         </li>
-                         <li>
-                             <a href="https://www.twitter.com/" target='_blank' class='hvr-float-shadow twitter'><i class='fa fa-twitter'></i></a>
-                         </li>
-                         <li>
-                             <a href="https://www.instagram.com/" target='_blank' class='hvr-float-shadow instagram'><i class='fa fa-instagram'></i></a>
-                         </li>
-                     </ul>
-                 </div>
-            <div class="footer-details">
-                <h3 class=''>Copyrights Mariusz Brozda &#169</h3>
-            </div>
-         
+    <footer class=' footer'>  
+        <div class='social-media'>
+            <ul class=''>
+                <li>
+                    <a href="https://www.facebook.com/" target='_blank' class='hvr-float-shadow facebook'><i class='fa fa-facebook'></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linked.com/" target='_blank' class='hvr-float-shadow linkedin'><i class='fa fa-linkedin'></i></a>
+                </li>
+                <li>
+                    <a href="https://www.googleplus.com/" target='_blank' class='hvr-float-shadow google-plus'><i class='fa fa-google-plus'></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target='_blank' class='hvr-float-shadow youtube'><i class='fa fa-youtube'></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target='_blank' class='hvr-float-shadow twitter'><i class='fa fa-twitter'></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target='_blank' class='hvr-float-shadow instagram'><i class='fa fa-instagram'></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-details">
+            <h3 class=''>Copyrights Mariusz Brozda &#169</h3>
+        </div>
      </footer>
 </body>
 </html>
